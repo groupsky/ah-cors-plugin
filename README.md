@@ -1,8 +1,11 @@
 # ah-cors-plugin
+
+[![CircleCI](https://circleci.com/gh/groupsky/ah-cors-plugin.svg?style=svg)](https://circleci.com/gh/groupsky/ah-cors-plugin)
+
 Configure CORS origins for Actionhero v18+
 
 ***
-**[NPM](https://www.npmjs.com/package/ah-cors-plugin) | [GitHub](https://github.com/groupsky/ah-cors-plugin)
+**[NPM](https://www.npmjs.com/package/ah-cors-plugin) | [GitHub](https://github.com/groupsky/ah-cors-plugin)**
 ***
 
 ## Install & Setup
