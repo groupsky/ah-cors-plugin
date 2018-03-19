@@ -3,7 +3,7 @@
   "name": "ah-cors-plugin",
   "license": "MIT",
   "description": "Actionhero plugin that allows configuring CORS origins",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "homepage": "https://github.com/groupsky/ah-cors-plugin#readme",
   "repository": {
     "type": "git",
