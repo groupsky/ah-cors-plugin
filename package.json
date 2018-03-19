@@ -1,0 +1,40 @@
+{
+  "author": "Geno Roupsky <geno@roupsky.name> (https://github.com/groupsky)",
+  "name": "ah-cors-plugin",
+  "license": "MIT",
+  "description": "Actionhero plugin that allows configuring CORS origins",
+  "version": "0.0.1",
+  "homepage": "https://github.com/groupsky/ah-cors-plugin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/groupsky/ah-cors-plugin.git"
+  },
+  "keywords": [
+    "actionhero",
+    "ah",
+    "plugin",
+    "cors"
+  ],
+  "bugs": {
+    "url": "https://github.com/groupsky/ah-cors-plugin/issues"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "actionhero": "^18.1.3",
+    "mocha": "^5.0.4",
+    "request": "^2.85.0",
+    "request-promise-native": "^1.0.5",
+    "should": "^13.2.1",
+    "standard": "^11.0.1"
+  },
+  "peerDependencies": {
+    "actionhero": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha",
+    "pretest": "standard"
+  }
+}
