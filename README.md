@@ -22,8 +22,8 @@ Configure CORS origins for Actionhero v18+
         }
       }
     }
-    
-    ``` 
+
+    ```
 
 3. Configure the origins or use `ALLOWED_ORIGINS` environment
 
@@ -35,11 +35,11 @@ Configure CORS origins for Actionhero v18+
           // Should the plugin be enabled
           enabled: false,
           // List of origins that are allowed, all the rest will get `null` as `Access-Control-Allow-Origin`
-          allowedOrigins: [ 'http://localhost:5000' ]
+          allowedOrigins: [ 'http://localhost:5000' ] || '*'
         }
       }
     }
-    
+
     exports.production = {
       cors: () => {
         return {
@@ -47,5 +47,5 @@ Configure CORS origins for Actionhero v18+
         }
       }
     }
-    
+
     ```

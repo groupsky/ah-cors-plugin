@@ -33,7 +33,7 @@ module.exports = class MyInitializer extends Initializer {
         }
 
         // is the origin allowed?
-        const allowed = config.allowedOrigins.indexOf(origin) !== -1
+        const allowed = config.allowedOrigins === '*' || config.allowedOrigins === origin || config.allowedOrigins.indexOf(origin) !== -1
         api.log('origin checked', 'debug', { origin, allowed })
 
         // set the header according to allowed or not

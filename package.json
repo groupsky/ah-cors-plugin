@@ -35,6 +35,7 @@
   },
   "scripts": {
     "test": "NODE_ENV=test mocha",
-    "pretest": "standard"
+    "pretest": "standard",
+    "postinstall": "node scripts/postinstall.js"
   }
 }
